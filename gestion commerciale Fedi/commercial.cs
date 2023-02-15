@@ -24,11 +24,7 @@ namespace gestion_commerciale_Fedi
             this.Nom = pnom;
             this.AnneeNaissance = panneeNaissance;
         }
-        public Commercial()
-        {
-
-        }
-        public int calculAge()
+         public int calculAge()
         {
             return DateTime.Now.Year - this.AnneeNaissance;
         }
