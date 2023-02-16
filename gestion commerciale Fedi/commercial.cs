@@ -30,7 +30,7 @@ namespace gestion_commerciale_Fedi
         }
         public override string ToString()
         {
-
+            return " Nom " + this.nom + " Prenom " + this.prenom + " Annee de Naissance " + this.anneeNaissance;
         }
 
     }
