@@ -10,9 +10,11 @@ namespace gestion_commerciale_Fedi
     {
         private string CodeCategorie;
         private string LibCategorie;
+        private string Salaries;
 
         public string CodeCategorie1 { get => CodeCategorie; set => CodeCategorie = value; }
         public string LibCategorie1 { get => LibCategorie; set => LibCategorie = value; }
+        public string Salaries1 { get => Salaries; set => Salaries = value; }
 
         public Categorie(string codeCategorie, string libCategorie)
         {
@@ -21,7 +23,7 @@ namespace gestion_commerciale_Fedi
         }
         public override string ToString()
         {
-            return CodeCategorie + LibCategorie;
+            return "Son code est " + this.CodeCategorie + " et son libellé est " + this.LibCategorie+ ".\n\n";
         }
     }
 }
