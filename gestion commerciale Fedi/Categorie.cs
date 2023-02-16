@@ -14,14 +14,14 @@ namespace gestion_commerciale_Fedi
         public string CodeCategorie1 { get => CodeCategorie; set => CodeCategorie = value; }
         public string LibCategorie1 { get => LibCategorie; set => LibCategorie = value; }
 
-        public Categorie(string CodeCategorie, string LibCategorie)
+        public Categorie(string codeCategorie, string libCategorie)
         {
-            this.CodeCategorie = CodeCategorie;
-            this.LibCategorie = LibCategorie;
+            this.CodeCategorie = codeCategorie;
+            this.LibCategorie = libCategorie;
         }
         public override string ToString()
         {
-            return CodeCategorie + "" + LibCategorie;
+            return CodeCategorie + LibCategorie;
         }
     }
 }
